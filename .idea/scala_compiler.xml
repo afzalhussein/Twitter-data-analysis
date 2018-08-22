@@ -7,7 +7,7 @@
       <parameter value="-encoding" />
       <parameter value="utf8" />
     </parameters>
-    <profile name="SBT 1" modules="datafetch,webapp">
+    <profile name="SBT 1" modules="webapp,datafetch">
       <option name="deprecationWarnings" value="true" />
       <option name="uncheckedWarnings" value="true" />
       <parameters>

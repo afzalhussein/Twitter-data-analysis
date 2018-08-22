@@ -2,10 +2,11 @@ name := "datafetch"
 
 version := "1.0-SNAPSHOT"
 
-libraryDependencies ++= Seq(
+libraryDependencies := Seq(
   javaJdbc,
   javaEbean,
   cache,
+  "org.scala-lang" % "scala-library" % "2.10.3",
   "mysql" % "mysql-connector-java" % "5.1.32",
   "org.twitter4j" % "twitter4j-core" % "4.0.2",
   "org.twitter4j" % "twitter4j-stream" % "4.0.2",
